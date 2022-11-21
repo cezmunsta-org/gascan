@@ -17,6 +17,7 @@ cat <<EOS > "${REQUIREMENTS}"
 ansible==${ANSIBLE}
 jmespath
 dnspython
+passlib
 EOS
 
 "/usr/bin/python${VERSION}" -m venv --clear /app/venv
